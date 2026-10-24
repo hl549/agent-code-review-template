@@ -1,0 +1,22 @@
+## Independent review of coding work
+
+For coding tasks in which you create or change implementation, tests, executable
+notebooks, build logic, or behavior-affecting configuration, use the
+agent-code-review skill before claiming completion. Establish acceptance criteria
+before implementation when feasible; apply review after each coherent candidate,
+not after every file edit. Respect the user's explicit scope and existing project
+requirements.
+
+Use independent fresh-context reviewers after implementation: one combined reviewer
+for a small low-consequence edit, two reviewers for normal behavioral changes, and
+a relevant specialist for substantial additional risk. Keep reviewers from editing
+the candidate. If assigned a reviewer-only role, perform only that role; do not
+recursively launch this workflow.
+
+Use evidence to resolve findings, bind the result to the reviewed candidate, and
+limit the loop to an initial pass plus two repair-and-review rounds. Report missing
+context, failed or skipped checks, and unresolved findings honestly. Do not infer
+merge, deploy, publishing, or communication permission from a successful review.
+
+If the skill or delegation tools are unavailable, report the limitation and do the
+best direct checks available; do not claim independent review was completed.

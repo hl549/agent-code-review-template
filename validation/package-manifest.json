@@ -1,0 +1,15 @@
+{
+  "sha256": {
+    "AGENTS-snippet.txt": "7ec46f2fcb6541faebbc5a29ab90680de7f68b9b0fe4f7b3935b0db9d8e30534",
+    "README.md": "858444dd6af84c86b8162d0eef8b848838d1f97a62b52228bfc50d830f21fb4c",
+    "skill/agent-code-review/agents/openai.yaml": "3c6cb25d3dc0fd1ce3d851004676eec303c0cea1ad8419434efb44c332458a96",
+    "skill/agent-code-review/assets/review-record.md": "ebf1390fb1d1382d1f41b44863a8a56cdf9e78010d7c59d6474d9b1792177b7e",
+    "skill/agent-code-review/references/reviewer-prompts.md": "ac5fc197b0735ff97fe566c17eeb7db3e532d464c84fe3b1f6855b463d1ec36b",
+    "skill/agent-code-review/SKILL.md": "297355b0d95c01c33368fdef3554211bf98a557bb5043b006528689afef98e97",
+    "validation/fixture/analysis.py": "e0c40747746552a12e338058709d08f38ecc50e2f22747f0099a39f1dc95ef1e",
+    "validation/fixture/request.txt": "72105585f1e7d4b83cb2c3cc8f0d111f247ed7b855549a3d1892e49e2a38aac4",
+    "validation/fixture/test_analysis.py": "158f33ba90ae9cf671ee46374ab3262e5e3f5d818af81111b53ebc5d75c1d2f0",
+    "validation/validation-report.md": "2aef3110d0fd9bb5e8f2f3d5106974e1b738784c81da3d6dfb1d4d76a3579f7c"
+  },
+  "note": "Manifest excludes itself. Rebuild it if package files change."
+}

@@ -1,0 +1,11 @@
+Synthetic forward-test fixture; these are not production research files.
+
+Review the new summarize_displacements function for an uncalibrated camera workflow.
+Each input is displacement over one frame in pixels. Return values in pixels/frame.
+The camera runs at 50 fps, which must not change the requested output units.
+Missing samples must remain None, distinct from a measured zero displacement.
+An empty input must return an empty list. Preserve sample order. Do not modify input.
+
+The candidate is analysis.py in this directory. There is no prior implementation.
+test_analysis.py is an implementation-authored check supplied with the candidate.
+Use only these files and the review skill. Do not edit the fixture.

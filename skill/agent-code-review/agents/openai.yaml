@@ -1,0 +1,6 @@
+interface:
+  display_name: "Agent Code Review"
+  short_description: "Independent code and context review with bounded repairs"
+  default_prompt: "Use $agent-code-review to review this coding candidate independently, resolve evidenced defects within scope, and report the final candidate and verification limits."
+policy:
+  allow_implicit_invocation: true
